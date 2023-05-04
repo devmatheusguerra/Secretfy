@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secretfy</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/main.css')}}">
+</head>
+
+<body>
+    <div class="app">
+        <button onclick="upload_file()">
+            Novo Arquivo
+        </button>
+        <h1>Secretfy</h1>
+        <main>
+        </main>
+    </div>
+    <script src="{{url_for('static',filename='Card.js')}}"></script>
+    <script src="{{url_for('static',filename='upload.js')}}"></script>
+    <script src="{{url_for('static',filename='getFiles.js')}}"></script>
+    <script src="{{url_for('static',filename='delete.js')}}"></script>
+</body>
+
+</html>
