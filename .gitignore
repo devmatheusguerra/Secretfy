@@ -1,3 +1,4 @@
 .data
 .key
 info.db
+.DS_Store
