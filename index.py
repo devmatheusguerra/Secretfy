@@ -24,9 +24,9 @@ if os.path.isfile('./.data'):
         Server()
 
 else:
-    first_pass = str(int(input('Type the first password: ')))
-    second_pass = str(int(input('Type the second password: ')))
-    third_pass = str(int(input('Type the last password: ')))
+    first_pass = str(input('Type the first password: '))
+    second_pass = str(input('Type the second password: '))
+    third_pass = str(input('Type the last password: '))
     data = {
         "p1":first_pass,
         "p2":second_pass,
